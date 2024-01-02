@@ -3,5 +3,10 @@ import { Button } from "../components/ui/button";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  return <Button>test</Button>;
+  return (
+    <div>
+      <h2>OverView</h2>
+      <p>list...</p>
+    </div>
+  );
 }
